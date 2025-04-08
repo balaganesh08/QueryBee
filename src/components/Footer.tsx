@@ -92,7 +92,7 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-bee-yellow flex-shrink-0" />
                 <span className="text-gray-300">
-                  123 Tech Park, Bengaluru, Karnataka, India - 560001
+                  Hyderabad, Telangana, India
                 </span>
               </li>
               <li className="flex items-center space-x-3">
