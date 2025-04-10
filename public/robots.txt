@@ -1,14 +1,18 @@
-User-agent: Googlebot
+# Global rules
+User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /admin/
 
-User-agent: Bingbot
-Allow: /
-
+# Allow social media crawlers
 User-agent: Twitterbot
 Allow: /
 
 User-agent: facebookexternalhit
 Allow: /
+
+# Sitemap location
+Sitemap: https://querybee.com/sitemap.xml
 
 User-agent: *
 Allow: /

@@ -1,6 +1,7 @@
 
 import { Helmet } from "react-helmet";
 import { useState } from "react";
+import StructuredData from "@/components/StructuredData";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BlogList from "@/components/BlogList";
@@ -23,6 +24,26 @@ const Blog = () => {
       <Helmet>
         <title>QueryBee Blog - Knowledge Management Insights for SMBs</title>
         <meta name="description" content="Explore the latest insights, tips, and best practices for knowledge management in small and medium businesses on the QueryBee blog." />
+        <StructuredData
+          type="article"
+          data={{
+            '@type': 'Blog',
+            headline: 'QueryBee Blog - Knowledge Management Insights',
+            description: 'Explore the latest insights, tips, and best practices for knowledge management in small and medium businesses.',
+            author: {
+              '@type': 'Organization',
+              name: 'QueryBee'
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: 'QueryBee',
+              logo: {
+                '@type': 'ImageObject',
+                url: 'https://querybee.com/logo.png'
+              }
+            }
+          }}
+        />
       </Helmet>
       
       <div className="flex flex-col min-h-screen">
