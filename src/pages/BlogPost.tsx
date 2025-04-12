@@ -1,4 +1,3 @@
-
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { ArrowLeft, Calendar, User, Tag } from "lucide-react";
@@ -36,6 +35,14 @@ const BlogPost = () => {
       <Helmet>
         <title>{post.title} | QueryBee Blog</title>
         <meta name="description" content={post.excerpt} />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.excerpt} />
+        <meta property="og:image" content={post.imageSrc} />
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:description" content={post.excerpt} />
+        <meta name="twitter:image" content={post.imageSrc} />
       </Helmet>
       
       <div className="flex flex-col min-h-screen">

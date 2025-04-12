@@ -1,7 +1,78 @@
-
 import { BlogPost } from "@/types/blog";
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 4,
+    title: "Tacit, Explicit, Implicit… Wait, What? Let’s Break Down Knowledge Types",
+    slug: "tacit-explicit-implicit-knowledge-types",
+    author: "Aditya",
+    authorTitle: "Knowledge Management Expert",
+    date: "October 5, 2023",
+    category: "Knowledge Management",
+    tags: ["Knowledge Types", "Tacit Knowledge", "Explicit Knowledge", "Implicit Knowledge"],
+    imageSrc: "https://querybeeimages.s3.us-east-1.amazonaws.com/image3.png",
+    excerpt: "Unlock the hidden types of knowledge that drive workplace success. Master explicit, implicit & tacit wisdom to outshine colleagues & advance your career. Learn how today!",
+    content: `
+      <p>Ever wonder why some colleagues seem to effortlessly navigate office politics while you're still trying to figure out the unwritten rules? Or why that new hire with impressive credentials struggles with tasks that seasoned team members handle with ease?</p>
+      <p>The answer lies in the different types of knowledge we all possess and use daily. From the documented procedures in your employee handbook to the intuitive understanding of when to speak up in meetings, knowledge shapes every aspect of our work lives.</p>
+      <p>Understanding the distinctions between implicit, explicit, and tacit knowledge could be the key to faster onboarding, better collaboration, and your next career advancement.</p>
+      
+      <h1>TL;DR: Types of Knowledge</h1>
+      <br />
+      <ul>
+        <li><strong>Explicit knowledge:</strong> The stuff you can easily write down, share in documents, or teach directly. Think instruction manuals, textbooks, and company policies.</li>
+        <li><strong>Implicit knowledge:</strong> The unwritten rules and context you pick up through experience. Not directly taught but understood within a culture, like knowing when to speak up in meetings or what certain phrases really mean in your workplace.</li>
+        <li><strong>Tacit knowledge:</strong> The deep expertise that's hard to explain or transfer. It's your intuition and "just knowing" after years of practice, like a manager who instinctively knows how to handle difficult team situations.</li>
+      </ul>
+      
+      <h1>But, What is Knowledge?</h1>
+      <br />
+      <p>Before diving into the various types, let's establish what we mean by knowledge. At its core, knowledge is the understanding, awareness, or familiarity acquired through experience, education, or discovery. It's the foundation upon which we build skills, make decisions, and solve problems.</p>
+      
+      <h1>Explicit Knowledge (The Written Word)</h1>
+      <br />
+      <p>Explicit knowledge is perhaps the most straightforward type to understand. This is knowledge that has been documented, codified, or otherwise formalized. It can be easily shared, stored, and transferred between individuals.</p>
+      <ul>
+        <li>Can be articulated, written down, or recorded</li>
+        <li>Easily transferable</li>
+        <li>Often found in books, manuals, databases, or standard operating procedures</li>
+      </ul>
+      <p>Everyday examples include a recipe for chocolate chip cookies, the owner's manual for your car, or a company's employee handbook.</p>
+      
+      <img src="https://querybeeimages.s3.us-east-1.amazonaws.com/image1.png" alt="Implicit Knowledge Example" class="rounded-lg mb-4" />
+      <h1>Define Implicit (Understanding the Unspoken)</h1>
+      <br />
+      <p>Implicit knowledge sits in an interesting middle ground. The term "implicit" means "implied though not plainly expressed." This type of knowledge is often embedded in routines, procedures, and shared understandings within a group or organization.</p>
+      <ul>
+        <li>Not directly expressed but understood within context</li>
+        <li>Often embedded in organizational culture</li>
+        <li>Can be converted to explicit knowledge with effort</li>
+        <li>Usually learned through observation and participation</li>
+      </ul>
+      <p>Everyday examples include the unwritten rules of office etiquette (knowing not to microwave fish in the break room) or understanding that certain phrases have contextual meanings.</p>
+      
+            <img src="https://querybeeimages.s3.us-east-1.amazonaws.com/image2.png" alt="Implicit Knowledge Example" class="rounded-lg mb-4" />
+
+      <h1>Tacit Knowledge: The Deepest Layer</h1>
+      <br />
+      <p>While sometimes used interchangeably with implicit knowledge, tacit knowledge has distinct characteristics. This is the most difficult type of knowledge to transfer because it's deeply personal, experiential, and often difficult to articulate.</p>
+      <ul>
+        <li>Highly personal and difficult to formalize</li>
+        <li>Rooted in individual experience, intuition, and values</li>
+        <li>Challenging to communicate or share with others</li>
+      </ul>
+      <p>Everyday examples include a chef who knows exactly when to remove food from heat without using a timer or a skilled musician who can play by ear.</p>
+      
+      <h1>QueryBee For AI-Enhanced Knowledge Management</h1>
+      <br />
+      <p>QueryBee is a new-age knowledge management platform especially designed for small and medium-sized teams that can’t spend much time on knowledge transfer or managing sophisticated platforms. With an interface similar to your notes app, you can create and share documents with your team and simplify knowledge transfer between employees.</p>
+      
+      <h1>Conclusion</h1>
+      <br />
+      <p>Understanding the different types of knowledge helps us recognize the full spectrum of what we know and how we learn. Each type serves a unique purpose in our personal and professional lives.</p>
+      <p>Choosing the right knowledge management platform can be an important factor in deciding if the knowledge in your company is easily lost or successfully transferred between members. Modern tools like QueryBee go beyond the traditionally designed tools and offer insights with simple questions, rather than spending hours digging through outdated pages.</p>
+    `
+  },
   {
     id: 1,
     title: "5 Ways AI is Transforming Knowledge Management for Indian SMBs",
