@@ -51,8 +51,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       <p>Everyday examples include the unwritten rules of office etiquette (knowing not to microwave fish in the break room) or understanding that certain phrases have contextual meanings.</p>
       
-            <img src="https://querybeeimages.s3.us-east-1.amazonaws.com/image2.png" alt="Implicit Knowledge Example" class="rounded-lg mb-4" />
-
+      <img src="https://querybeeimages.s3.us-east-1.amazonaws.com/image2.png" alt="Tacit Knowledge Example" class="rounded-lg mb-4" />
       <h1>Tacit Knowledge: The Deepest Layer</h1>
       <br />
       <p>While sometimes used interchangeably with implicit knowledge, tacit knowledge has distinct characteristics. This is the most difficult type of knowledge to transfer because it's deeply personal, experiential, and often difficult to articulate.</p>
@@ -62,6 +61,94 @@ export const blogPosts: BlogPost[] = [
         <li>Challenging to communicate or share with others</li>
       </ul>
       <p>Everyday examples include a chef who knows exactly when to remove food from heat without using a timer or a skilled musician who can play by ear.</p>
+      
+      <h1>The Relationship Between Explicit and Implicit Knowledge</h1>
+      <br />
+      <p>Understanding the relationship between explicit and implicit knowledge is crucial for effective knowledge management. These two types exist on a continuum rather than as completely separate categories.</p>
+      <p>Explicit knowledge provides the foundation—the facts, data, and documented procedures. Implicit knowledge builds upon this foundation, adding context, nuance, and understanding. Together, they create a more complete picture of what we know and how we apply it.</p>
+      <p>Many organizations work to convert implicit knowledge to explicit knowledge through documentation processes, mentorship programs, and knowledge bases. This conversion helps preserve valuable insights when experienced employees leave and makes onboarding new team members more efficient.</p>
+      
+      <h1>Other Important Types of Knowledge</h1>
+      <br />
+      <img src="https://querybeeimages.s3.us-east-1.amazonaws.com/image4.png" alt="Other Knowledge Types" class="rounded-lg mb-4" />
+      <h2>Imperative Knowledge: Knowing How</h2>
+      <p>Imperative knowledge is often described as "know-how" or procedural knowledge. It's about knowing how to perform tasks or activities. This type of knowledge can contain both explicit and implicit elements.</p>
+      <ul>
+        <li>Focused on procedures and processes</li>
+        <li>Often involves step-by-step instructions</li>
+        <li>Can include both formal and informal elements</li>
+        <li>Typically learned through practice and experience</li>
+      </ul>
+      <p>Everyday examples include knowing how to ride a bicycle, cooking a meal without following a recipe, or navigating a complicated software program.</p>
+      
+      <h2>Declarative Knowledge: Knowing That</h2>
+      <p>Declarative knowledge is about facts and information—knowing "that" something is true. This is often what we think of as academic or factual knowledge.</p>
+      <p>Everyday examples include knowing that Paris is the capital of France or understanding that water boils at 100°C at sea level.</p>
+      
+      <h2>Procedural Knowledge: Step-by-Step</h2>
+      <p>While similar to imperative knowledge, procedural knowledge focuses specifically on the steps required to complete a task. It can be both explicit (written procedures) and tacit (learned through experience).</p>
+      
+      <h2>Conceptual Knowledge: Understanding Relationships</h2>
+      <p>Conceptual knowledge involves understanding how ideas interconnect and relate to each other. It's about seeing the bigger picture rather than isolated facts.</p>
+      
+      <h2>Cultural Knowledge: Social Understanding</h2>
+      <p>Cultural knowledge encompasses the shared values, beliefs, and practices of a group. It's often highly implicit and picked up through immersion rather than formal instruction.</p>
+      
+      <h1>Workplace Challenges in Knowledge Transfer</h1>
+      <br />
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Knowledge Type</th>
+            <th>Challenge</th>
+            <th>How a Good KM Tool Helps</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="5"><strong>Explicit Knowledge</strong></td>
+            <td>Overloaded or scattered documentation</td>
+            <td>Provides centralized, searchable storage with smart categorization, filters, and tagging for quick access</td>
+          </tr>
+          <tr>
+            <td>Outdated information</td>
+            <td>Enables version control, auto-reminders for reviews, and assigns ownership for regular updates</td>
+          </tr>
+          <tr>
+            <td>Missing context in procedures</td>
+            <td>Allows rich formatting, comments, and contextual linking to related documents or real-world use cases</td>
+          </tr>
+          <tr>
+            <td>Siloed or hard-to-access information</td>
+            <td>Breaks down silos through cross-department access, workspace sharing, and permission-based collaboration</td>
+          </tr>
+          <tr>
+            <td>Lack of multimedia support</td>
+            <td>Supports embedding of images, videos, diagrams, and interactive content to enhance understanding</td>
+          </tr>
+          <tr>
+            <td rowspan="5"><strong>Implicit Knowledge</strong></td>
+            <td>Employees unaware their knowledge is valuable</td>
+            <td>Encourages informal documentation via notes, discussion threads, and collaborative pages</td>
+          </tr>
+          <tr>
+            <td>Cultural knowledge fades with team turnover</td>
+            <td>Captures narratives, norms, and team rituals through wikis, blogs, or community spaces</td>
+          </tr>
+          <tr>
+            <td>Employees hesitant to share</td>
+            <td>Promotes collaboration through comments, reactions, and peer recognition systems</td>
+          </tr>
+          <tr>
+            <td>Observational learning lost in remote setups</td>
+            <td>Enables async knowledge sharing via screen recordings, annotated walkthroughs, and shared knowledge boards</td>
+          </tr>
+          <tr>
+            <td>Difficult to track or measure knowledge sharing</td>
+            <td>Offers analytics and activity logs to identify knowledge contributors, frequently used content, and gaps</td>
+          </tr>
+        </tbody>
+      </table>
       
       <h1>QueryBee For AI-Enhanced Knowledge Management</h1>
       <br />
