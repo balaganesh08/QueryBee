@@ -28,8 +28,8 @@ const HeroSection = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" className="btn-primary text-base">
-                Join the Waitlist <ArrowRight size={18} className="ml-2" />
+              <a href="https://app.querybee.io/" className="btn-primary text-base">
+              Start for free <ArrowRight size={18} className="ml-2" />
               </a>
               <a href="#features" className="btn-secondary text-base">
                 Explore Features

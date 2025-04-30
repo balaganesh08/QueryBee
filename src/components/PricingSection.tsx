@@ -14,7 +14,7 @@ const plans = [
       "Email support",
       "Standard document templates"
     ],
-    cta: "Join Waitlist",
+    cta: "Start for free",
     popular: false,
   },
   {
@@ -29,7 +29,7 @@ const plans = [
       "Email support",
       "Standard document templates"
     ],
-    cta: "Join Waitlist",
+    cta: "Start for free",
     popular: false,
   },
   {
@@ -46,7 +46,7 @@ const plans = [
       "Analytics dashboard",
       "Role-based access control"
     ],
-    cta: "Join Waitlist",
+    cta: "Start for free",
     popular: true,
   }
 ];

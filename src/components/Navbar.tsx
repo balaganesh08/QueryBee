@@ -61,8 +61,8 @@ const Navbar = () => {
             <a href={getSectionLink("pricing")} className="font-medium text-gray-700 hover:text-bee-blue transition-colors">
               Pricing
             </a>
-            <a href={getSectionLink("contact")} className="btn-primary">
-              Join Waitlist
+            <a href="https://app.querybee.io/" className="btn-primary">
+              Start for free
             </a>
           </div>
 
@@ -118,11 +118,11 @@ const Navbar = () => {
               Pricing
             </a>
             <a
-              href={getSectionLink("contact")}
+              href="https://app.querybee.io/"
               className="btn-primary w-full justify-center"
               onClick={() => setIsMenuOpen(false)}
             >
-              Join Waitlist
+              Start for free
             </a>
           </div>
         </div>
