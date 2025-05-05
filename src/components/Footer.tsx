@@ -95,16 +95,11 @@ const Footer = () => {
                   Hyderabad, Telangana, India
                 </span>
               </li>
-              <li className="flex items-center space-x-3">
-                <Phone size={20} className="text-bee-yellow flex-shrink-0" />
-                <a href="tel:+919876543210" className="text-gray-300 hover:text-bee-yellow transition-colors">
-                  +91 98765 43210
-                </a>
-              </li>
+            
               <li className="flex items-center space-x-3">
                 <Mail size={20} className="text-bee-yellow flex-shrink-0" />
-                <a href="mailto:info@querybee.com" className="text-gray-300 hover:text-bee-yellow transition-colors">
-                  info@querybee.com
+                <a href="mailto:aditya@querybee.io" className="text-gray-300 hover:text-bee-yellow transition-colors">
+                  aditya@querybee.io
                 </a>
               </li>
             </ul>

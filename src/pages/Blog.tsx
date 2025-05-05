@@ -99,7 +99,7 @@ const Blog = () => {
                       </div>
                       <div>
                         <h3 className="text-lg font-semibold">Email Us</h3>
-                        <p className="text-gray-600">info@querybee.com</p>
+                        <p className="text-gray-600">aditya@querybee.io</p>
                       </div>
                     </div>
                     <div className="flex items-start space-x-4">
@@ -110,7 +110,7 @@ const Blog = () => {
                       </div>
                       <div>
                         <h3 className="text-lg font-semibold">Call Us</h3>
-                        <p className="text-gray-600">+91 98765 43210</p>
+                        <p className="text-gray-600"> </p>
                       </div>
                     </div>
                   </div>

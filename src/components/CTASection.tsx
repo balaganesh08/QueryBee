@@ -36,19 +36,24 @@ const CTASection = () => {
 
   const onSubmit = async (data: FormValues) => {
     setIsSubmitting(true);
-    
+  
     try {
-      // Simulate backend submission with a timeout
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      
-      // Here you would normally send data to a backend API
-      console.log("Form submitted:", data);
-      
+      const response = await fetch("https://formsubmit.co/ajax/aditya@querybee.io", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+  
+      if (!response.ok) throw new Error("Failed to send");
+  
       toast({
         title: "Submission Successful!",
         description: "Thanks for joining our waitlist. We'll contact you soon!",
       });
-      
+  
       form.reset();
     } catch (error) {
       toast({
@@ -60,6 +65,7 @@ const CTASection = () => {
       setIsSubmitting(false);
     }
   };
+  
 
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-bee-navy to-bee-blue text-white">
