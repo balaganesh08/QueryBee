@@ -6,50 +6,68 @@ const plans = [
     name: "Free",
     price: "$0",
     period: "/month",
-    description: "Perfect for small teams and individuals",
+    description: "Perfect for individuals or small test teams",
     features: [
-      "Up to 3 team members",
-      "5 GB document storage",
-      "Basic AI search",
-      "Email support",
-      "Standard document templates"
+      "Up to 5 users",
+      "100 MB storage",
+      "20 AI search queries/month",
+      "10 AI document actions/month",
+      "Custom tags & folders",
+      "Team collaboration (comments, mentions)"
     ],
     cta: "Start for free",
+    ctaUrl: "https://app.querybee.io/",
     popular: false,
   },
   {
-    name: "Starter",
-    price: "$9",
+    name: "Startup",
+    price: "$29",
     period: "/month",
-    description: "Perfect for small teams and startups",
+    description: "Ideal for small and growing teams",
     features: [
-      "Up to 5 team members",
-      "10 GB document storage",
-      "Basic AI search",
+      "Up to 15 users",
+      "2 GB storage",
+      "300 AI search queries/month",
+      "100 AI document actions/month",
+      "Document version history (30 days)",
+      "Custom tags & folders",
+      "Team collaboration (comments, mentions)",
+      "Permissions & roles",
       "Email support",
-      "Standard document templates"
+      "Integrations (Slack, GDrive, Notion, etc.)",
+      "Analytics & insights",
+      "Early feature access"
     ],
-    cta: "Start for free",
+    cta: "Start free trial",
+    ctaUrl: "https://app.querybee.io/",
     popular: false,
   },
   {
-    name: "Business",
-    price: "$19",
+    name: "Growing",
+    price: "$59",
     period: "/month",
-    description: "Ideal for growing businesses",
+    description: "Best for scaling businesses with heavy usage",
     features: [
-      "Up to 20 team members",
-      "50 GB document storage",
-      "Advanced AI search & Q&A",
-      "Priority email & chat support",
-      "Custom document templates",
-      "Analytics dashboard",
-      "Role-based access control"
+      "Unlimited users",
+      "10 GB storage",
+      "1,000 AI search queries/month",
+      "500 AI document actions/month",
+      "Document version history (Unlimited)",
+      "Custom tags & folders",
+      "Team collaboration (comments, mentions)",
+      "Permissions & roles",
+      "Custom branding",
+      "Priority Slack access",
+      "Integrations (Slack, GDrive, Notion, etc.)",
+      "Analytics & insights",
+      "Early feature access"
     ],
-    cta: "Start for free",
+    cta: "Start free trial",
+    ctaUrl: "https://app.querybee.io/",
     popular: true,
   }
 ];
+
 
 const PricingSection = () => {
   return (
@@ -80,30 +98,33 @@ const PricingSection = () => {
               )}
               
               <div className="bg-white p-8">
-                <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
-                <div className="flex items-baseline mb-4">
-                  <span className="text-4xl font-bold">{plan.price}</span>
-                  <span className="text-gray-500 ml-1">{plan.period}</span>
-                </div>
-                <p className="text-gray-600 mb-6">{plan.description}</p>
-                
-                <ul className="space-y-4 mb-8">
-                  {plan.features.map((feature, i) => (
-                    <li key={i} className="flex items-start">
-                      <Check size={20} className="text-bee-blue flex-shrink-0 mr-2" />
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                
-                <button className={`w-full py-3 px-6 rounded-lg transition-colors ${
-                  plan.popular 
-                    ? "bg-bee-yellow hover:bg-bee-lightYellow text-bee-navy font-medium"
-                    : "bg-bee-blue hover:bg-bee-navy text-white font-medium"
-                }`}>
-                  {plan.cta}
-                </button>
-              </div>
+  <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
+  <div className="flex items-baseline mb-4">
+    <span className="text-4xl font-bold">{plan.price}</span>
+    <span className="text-gray-500 ml-1">{plan.period}</span>
+  </div>
+  <p className="text-gray-600 mb-6">{plan.description}</p>
+  
+  <ul className="space-y-4 mb-8">
+    {plan.features.map((feature, i) => (
+      <li key={i} className="flex items-start">
+        <Check size={20} className="text-bee-blue flex-shrink-0 mr-2" />
+        <span>{feature}</span>
+      </li>
+    ))}
+  </ul>
+  
+  <a 
+    href={plan.ctaUrl} 
+    className={`w-full py-3 px-6 rounded-lg transition-colors block text-center ${
+      plan.popular 
+        ? "bg-bee-yellow hover:bg-bee-lightYellow text-bee-navy font-medium"
+        : "bg-bee-blue hover:bg-bee-navy text-white font-medium"
+    }`}
+  >
+    {plan.cta}
+  </a>
+</div>
             </div>
           ))}
         </div>
